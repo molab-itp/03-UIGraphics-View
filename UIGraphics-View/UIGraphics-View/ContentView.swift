@@ -9,10 +9,10 @@ struct ContentView: View {
     var body: some View {
         let _ = Self._printChanges()
         VStack {
-            //            Image(systemName: "globe")
-            //                .imageScale(.large)
-            //                .foregroundColor(.accentColor)
-            //            imageGlobe
+            // Image(systemName: "globe")
+            // .imageScale(.large)
+            // .foregroundColor(.accentColor)
+            // imageGlobe
             imageMaze
             Text("Hello, world!")
                 .font(.largeTitle)
