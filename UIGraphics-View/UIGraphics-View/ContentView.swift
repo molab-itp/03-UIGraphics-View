@@ -12,7 +12,8 @@ struct ContentView: View {
             // Image(systemName: "globe")
             // .imageScale(.large)
             // .foregroundColor(.accentColor)
-            // imageGlobe
+            imageGlobe
+
             imageMaze
             Text("Hello, world!")
                 .font(.largeTitle)
@@ -24,7 +25,9 @@ struct ContentView: View {
     
     var imageGlobe: some View {
         Image(systemName: "globe")
-            .imageScale(.large)
+//            .imageScale(.large)
+            .resizable()
+            .aspectRatio(contentMode: .fit)
             .foregroundColor(.accentColor)
     }
     
