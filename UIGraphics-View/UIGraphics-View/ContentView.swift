@@ -15,7 +15,7 @@ struct ContentView: View {
             // .foregroundColor(.accentColor)
             imageGlobe
 
-            imageMaze
+            imageBoxes
             
             Text("Hello, world!")
                 .font(.largeTitle)
@@ -33,7 +33,7 @@ struct ContentView: View {
             .foregroundColor(.accentColor)
     }
     
-    var imageMaze: some View {
+    var imageBoxes: some View {
         Image(uiImage: renderMaze(300, 100))
     }
 }
