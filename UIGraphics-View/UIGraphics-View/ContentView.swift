@@ -7,6 +7,7 @@ import UIKit
 
 struct ContentView: View {
     var body: some View {
+        // display updates for debugging
         let _ = Self._printChanges()
         VStack {
             // Image(systemName: "globe")
