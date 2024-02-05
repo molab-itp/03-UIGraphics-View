@@ -16,6 +16,7 @@ struct ContentView: View {
             imageGlobe
 
             imageMaze
+            
             Text("Hello, world!")
                 .font(.largeTitle)
                 .fontWeight(.bold)
