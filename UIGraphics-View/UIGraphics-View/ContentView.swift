@@ -34,7 +34,7 @@ struct ContentView: View {
     }
     
     var imageBoxes: some View {
-        Image(uiImage: renderMaze(300, 100))
+        Image(uiImage: renderGraphics(300, 100))
     }
 }
 
@@ -46,8 +46,8 @@ struct ContentView_Previews: PreviewProvider {
 
 // from https://github.com/molab-itp/01-UIRender-playground
 
-func renderMaze(_ width:Int, _ height:Int) -> UIImage {
-    print("renderMaze width=\(width) height=\(height)")
+func renderGraphics(_ width:Int, _ height:Int) -> UIImage {
+    print("renderGraphics width=\(width) height=\(height)")
     let len = width / 4;
     let hi = height;
     let sz = CGSize(width: width, height: height)
